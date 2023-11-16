@@ -1,0 +1,168 @@
+// products.mongodb
+
+use("pet_store")
+
+db.products.drop()
+
+db.products.insertMany([
+  {
+    _id: 1,
+    title: "Collar para Perro",
+    price: 19.99,
+    description: "Collar de cuero resistente para perros de todos los tamaños",
+    category: "Accesorios",
+    image: "URL de la imagen"
+  },
+  {
+    _id: 2,
+    title: "Comida Premium para Gatos",
+    price: 29.99,
+    description: "Alimento balanceado con ingredientes de alta calidad para gatos exigentes",
+    category: "Comida",
+    image: "URL de la imagen"
+  },
+  {
+    _id: 3,
+    title: "Juguete Interactivo para Gatos",
+    price: 15.50,
+    description: "Juguete con plumas y sonidos para mantener entretenidos a los gatos",
+    category: "Juguetes",
+    image: "URL de la imagen"
+  },
+  {
+    _id: 4,
+    title: "Correa Retráctil para Paseos",
+    price: 24.99,
+    description: "Correa duradera y retráctil para pasear a perros de todos los tamaños",
+    category: "Accesorios",
+    image: "URL de la imagen"
+  },
+  {
+    _id: 5,
+    title: "Snacks Naturales para Perros",
+    price: 12.99,
+    description: "Snacks saludables y naturales para premiar a tu perro",
+    category: "Comida",
+    image: "URL de la imagen"
+  },
+  {
+    _id: 6,
+    title: "Pelota Duradera para Perros",
+    price: 8.75,
+    description: "Pelota resistente para juegos activos con tu perro",
+    category: "Juguetes",
+    image: "URL de la imagen"
+  },
+  {
+    _id: 7,
+    title: "Casita de Tela para Gatos",
+    price: 29.99,
+    description: "Refugio suave y acogedor para que los gatos se relajen",
+    category: "Accesorios",
+    image: "URL de la imagen"
+  },
+  {
+    _id: 8,
+    title: "Alimento Húmedo para Gatos",
+    price: 16.50,
+    description: "Comida húmeda con sabores variados para consentir a tu gato",
+    category: "Comida",
+    image: "URL de la imagen"
+  },
+  {
+    _id: 9,
+    title: "Ratón de Juguete para Gatos",
+    price: 6.99,
+    description: "Juguete en forma de ratón para estimular el instinto cazador de los gatos",
+    category: "Juguetes",
+    image: "URL de la imagen"
+  },
+  {
+    _id: 10,
+    title: "Chaleco Reflectante para Perros",
+    price: 18.99,
+    description: "Chaleco con material reflectante para mayor visibilidad durante paseos nocturnos",
+    category: "Accesorios",
+    image: "URL de la imagen"
+  },
+  {
+    _id: 11,
+    title: "Cama OrthoComfort para Perros",
+    price: 45.99,
+    description: "Cama ortopédica para perros mayores o con problemas de articulaciones",
+    category: "Accesorios",
+    image: "URL de la imagen"
+  },
+  {
+    _id: 12,
+    title: "Arena Aglomerante para Gatos",
+    price: 14.99,
+    description: "Arena para gatos que forma aglomerados para facilitar la limpieza",
+    category: "Accesorios",
+    image: "URL de la imagen"
+  },
+  {
+    _id: 13,
+    title: "Comida Natural para Perros",
+    price: 32.50,
+    description: "Comida con ingredientes naturales y nutritivos para perros activos",
+    category: "Comida",
+    image: "URL de la imagen"
+  },
+  {
+    _id: 14,
+    title: "Pelota con Luces LED para Gatos",
+    price: 9.99,
+    description: "Pelota con luces LED intermitentes para juegos divertidos con gatos",
+    category: "Juguetes",
+    image: "URL de la imagen"
+  },
+  {
+    _id: 15,
+    title: "Arnés Ajustable para Perros",
+    price: 21.50,
+    description: "Arnés cómodo y ajustable para paseos seguros con tu perro",
+    category: "Accesorios",
+    image: "URL de la imagen"
+  },
+  {
+    _id: 16,
+    title: "Hueso Dental para Perros",
+    price: 7.25,
+    description: "Hueso masticable que promueve la salud dental de los perros",
+    category: "Juguetes",
+    image: "URL de la imagen"
+  },
+  {
+    _id: 17,
+    title: "Comedero Elevado para Gatos",
+    price: 19.99,
+    description: "Comedero elevado para gatos que favorece una postura saludable durante las comidas",
+    category: "Accesorios",
+    image: "URL de la imagen"
+  },
+  {
+    _id: 18,
+    title: "Bolitas de Catnip para Gatos",
+    price: 5.99,
+    description: "Bolitas de catnip para estimular el juego y la diversión en gatos",
+    category: "Juguetes",
+    image: "URL de la imagen"
+  },
+  {
+    _id: 19,
+    title: "Cepillo Deshedding para Perros",
+    price: 14.50,
+    description: "Cepillo diseñado para reducir la pérdida de pelo en perros durante el cepillado",
+    category: "Accesorios",
+    image: "URL de la imagen"
+  },
+  {
+    _id: 20,
+    title: "Comida Orgánica para Gatos",
+    price: 27.99,
+    description: "Comida orgánica con ingredientes de alta calidad para gatos exigentes",
+    category: "Comida",
+    image: "URL de la imagen"
+  }
+])
