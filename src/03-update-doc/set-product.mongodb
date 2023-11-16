@@ -1,0 +1,51 @@
+use("pet_store")
+
+db.products.updateOne(
+  { _id: 1 },
+  { $set: { category: 'Actualizado', description: 'Nueva descripción' } }
+)
+
+db.products.updateOne(
+  { __id: 2 },
+  { $set: { category: 'Actualizado', title: 'Comida para gatos' } }
+)
+
+db.products.updateOne(
+  { _id: 3 },
+  { $set: { category: 'Actualizado', price: 14.00 } }
+)
+
+db.products.updateOne(
+  { _id: 4 },
+  { $set: { category: 'Actualizado',     description: "Correa para pasear a perros de todos los tamaños"} }
+)
+
+db.products.updateOne(
+  { _id: 5 },
+  { $set: { category: 'Actualizado',     title: "Snacks Naturales para gatos", description: "Snacks saludables y naturales para premiar a tu gato"} }
+)
+
+db.products.updateOne(
+  { _id: 6 },
+  { $set: { category: 'Actualizado', price: 30.00} }
+)
+
+db.products.updateOne(
+  { _id: 7 },
+  { $set: { category: 'Actualizado',     title: "Casita de tela muy acogedora para gatos", description: "Refugio suave para que los gatos se relajen"} }
+)
+
+db.products.updateOne(
+    { _id: 8 },
+    { $set: { category: 'Actualizado', description: 'Cepillo suave y eficaz para mantener el pelaje de tu perro limpio y saludable.'}}
+  )
+  
+  db.products.updateOne(
+    { _id: 9 },
+    { $set: { category: 'Actualizado',description: 'Pelota con dispensador de golosinas para mantener entretenido a tu perro durante horas.'}}
+  )
+  
+  db.products.updateOne(
+    { _id: 10 },
+    { $set: { category: 'Actualizado',description: 'Cama con diseño elegante y cómodo para que tu gato descanse plácidamente.'}}
+  )
