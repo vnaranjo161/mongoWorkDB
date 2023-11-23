@@ -53,14 +53,7 @@ db.products.insertMany([
     category: "Juguetes",
     image: "URL de la imagen"
   },
-  {
-    _id: 7,
-    title: "Casita de Tela para Gatos",
-    price: 29.99,
-    description: "Refugio suave y acogedor para que los gatos se relajen",
-    category: "Accesorios",
-    image: "URL de la imagen"
-  },
+
   {
     _id: 8,
     title: "Alimento Húmedo para Gatos",
