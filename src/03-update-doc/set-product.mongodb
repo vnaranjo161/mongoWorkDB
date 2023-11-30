@@ -6,7 +6,7 @@ db.products.updateOne(
 )
 
 db.products.updateOne(
-  { __id: 2 },
+  { _id: 2 },
   { $set: { category: 'Comida', title: 'Comida para gatos' } }
 )
 
