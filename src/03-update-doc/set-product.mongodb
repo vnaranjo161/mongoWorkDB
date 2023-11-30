@@ -7,7 +7,7 @@ db.products.updateOne(
 
 db.products.updateOne(
   { __id: 2 },
-  { $set: { category: 'Actualizado', title: 'Comida para gatos' } }
+  { $set: { category: 'Comida', title: 'Comida para gatos' } }
 )
 
 db.products.updateOne(
@@ -17,12 +17,12 @@ db.products.updateOne(
 
 db.products.updateOne(
   { _id: 4 },
-  { $set: { category: 'Actualizado',     description: "Correa para pasear a perros de todos los tamaños"} }
+  { $set: { category: 'Basico',     description: "Correa para pasear a perros de todos los tamaños"} }
 )
 
 db.products.updateOne(
   { _id: 5 },
-  { $set: { category: 'Actualizado',     title: "Snacks Naturales para gatos", description: "Snacks saludables y naturales para premiar a tu gato"} }
+  { $set: { category: 'Comida',     title: "Snacks Naturales para gatos", description: "Snacks saludables y naturales para premiar a tu gato"} }
 )
 
 db.products.updateOne(
@@ -32,20 +32,20 @@ db.products.updateOne(
 
 db.products.updateOne(
   { _id: 7 },
-  { $set: { category: 'Actualizado',     title: "Casita de tela muy acogedora para gatos", description: "Refugio suave para que los gatos se relajen"} }
+  { $set: { category: 'Basico',     title: "Casita de tela muy acogedora para gatos", description: "Refugio suave para que los gatos se relajen"} }
 )
 
 db.products.updateOne(
     { _id: 8 },
-    { $set: { category: 'Actualizado', description: 'Cepillo suave y eficaz para mantener el pelaje de tu perro limpio y saludable.'}}
+    { $set: { category: 'Basico', description: 'Cepillo suave y eficaz para mantener el pelaje de tu perro limpio y saludable.'}}
   )
   
   db.products.updateOne(
     { _id: 9 },
-    { $set: { category: 'Actualizado',description: 'Pelota con dispensador de golosinas para mantener entretenido a tu perro durante horas.'}}
+    { $set: { category: 'Juguetes',description: 'Pelota con dispensador de golosinas para mantener entretenido a tu perro durante horas.'}}
   )
   
   db.products.updateOne(
     { _id: 10 },
-    { $set: { category: 'Actualizado',description: 'Cama con diseño elegante y cómodo para que tu gato descanse plácidamente.'}}
+    { $set: { category: 'Basico',description: 'Cama con diseño elegante y cómodo para que tu gato descanse plácidamente.'}}
   )

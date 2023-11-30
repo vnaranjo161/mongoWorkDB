@@ -1,0 +1,19 @@
+use("pet_store")
+
+db.products.updateMany(
+    { category: "Accesorios" },
+    {
+      $set: {
+        inventary: true
+      }
+    }
+ )
+
+ db.products.updateMany(
+  { category: "Juguetes" },
+  {
+    $set: {
+      stock: true
+    }
+  }
+)
